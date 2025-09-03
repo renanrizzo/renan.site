@@ -1,67 +1,47 @@
 body {
-  margin: 0;
-  font-family: "Epunda Slab", serif;
-  background: #000;
-  color: #fff;
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Epunda Slab", serif;
 }
 
 header {
-  border-bottom: 2px solid rgb(0, 210, 244);
-  padding: 20px;
-  font-size: 32px;
-  color: rgb(0, 210, 244);
-  text-align: center;
-  letter-spacing: 2px;
+    border-bottom: solid 2px rgb(0, 210, 244);
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(0, 210, 244);
 }
 
-.hero {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  padding: 80px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 40px;
+.chamada {
+    background: rgb(143, 175, 226);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
 
-.chamada-texto h1 {
-  font-size: 52px;
-  margin: 0 0 20px;
+.chamada-texto {
+    margin-right: 5%;
 }
 
-.chamada-texto p {
-  font-size: 24px;
-  color: rgb(0, 210, 244);
-  margin: 0;
+h1 {
+    font-size: 60px;
 }
 
-.video-container iframe {
-  width: 560px;
-  height: 315px;
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+p {
+    font-size: 30px;
+}
+img {
+    height: 200px
 }
 
-.outros {
-  background: #111;
-  padding: 60px 20px;
-  text-align: center;
+.categoria-videos {
+display: flex;
+overflow: auto;
+gap: 10px;
 }
 
-.outros h2 {
-  font-size: 36px;
-  margin-bottom: 40px;
-  color: rgb(0, 210, 244);
-}
-
-.cards img {
-  height: 200px;
-  border-radius: 12px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.cards img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(0, 210, 244, 0.5);
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
 }
